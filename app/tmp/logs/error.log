@@ -1,0 +1,796 @@
+2013-12-23 22:24:30 Error: [MissingComponentException] Component class FormatRestComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FormatRestComponent',
+  'plugin' => false,
+)
+Request URL: /public/sportronixrest2/Sean/loginTest2?username=test&password=test
+Stack Trace:
+#0 C:\wamp\www\public\sportronixrest2\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('FormatRest', Array)
+#1 C:\wamp\www\public\sportronixrest2\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(SeanController))
+#2 C:\wamp\www\public\sportronixrest2\lib\Cake\Routing\Dispatcher.php(181): Controller->constructClasses()
+#3 C:\wamp\www\public\sportronixrest2\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(SeanController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\public\sportronixrest2\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-23 22:25:10 Error: [MissingViewException] View file "C:\wamp\www\public\sportronixrest2\app\View\Home\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\public\\sportronixrest2\\app\\View\\Home\\index.ctp',
+)
+Request URL: /public/sportronixrest2/Home
+Stack Trace:
+#0 C:\wamp\www\public\sportronixrest2\lib\Cake\View\View.php(457): View->_getViewFileName(NULL)
+#1 C:\wamp\www\public\sportronixrest2\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\public\sportronixrest2\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\wamp\www\public\sportronixrest2\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\public\sportronixrest2\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-17 19:40:39 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\wamp\www\public\_sportronixrest\app\Controller\MemberController.php, line 312]
+2014-02-17 19:40:39 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /public/_sportronixrest/Member/get_notifications
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\pub...', 312)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\pub...', 312, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\pub...', 312, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 14:08:41 Error: Fatal Error (4): syntax error, unexpected '$Bet' (T_VARIABLE) in [C:\wamp\www\public\_sportronixrest\app\Controller\SportController.php, line 108]
+2014-04-19 14:08:41 Error: [FatalErrorException] syntax error, unexpected '$Bet' (T_VARIABLE)
+Request URL: /public/_sportronixrest/Sport/place_bet_skengo
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\pub...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\pub...', 108, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\pub...', 108, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-04-19 14:13:51 Error: Fatal Error (4): syntax error, unexpected '$Bet' (T_VARIABLE) in [C:\wamp\www\public\_sportronixrest\app\Controller\SportController.php, line 108]
+2014-04-19 14:13:51 Error: [FatalErrorException] syntax error, unexpected '$Bet' (T_VARIABLE)
+Request URL: /public/_sportronixrest/Sport/place_bet_skengo
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\pub...', 108)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\pub...', 108, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\pub...', 108, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-19 07:34:32 Error: Fatal Error (1): Maximum execution time of 120 seconds exceeded in [C:\wamp\www\public\_sportronixrest\lib\Cake\Utility\Debugger.php, line 484]
+2015-01-19 07:34:32 Error: [FatalErrorException] Maximum execution time of 120 seconds exceeded
+Request URL: /public/_sportronixrest/cron/calculate_skengo
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', 'C:\\wamp\\www\\pub...', 484)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', 'C:\\wamp\\www\\pub...', 484, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', 'C:\\wamp\\www\\pub...', 484, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-13 05:19:09 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\wamp\www\public\_sportronixrest\app\Controller\CronController.php, line 160]
+2015-02-13 05:19:09 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /public/_sportronixrest/cron/testskengowins
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 160)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 160, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 160, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-02-13 05:19:21 Error: [MissingViewException] View file "C:\wamp\www\public\_sportronixrest\app\View\Cron\testskengowins.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\public\\_sportronixrest\\app\\View\\Cron\\testskengowins.ctp',
+)
+Request URL: /public/_sportronixrest/cron/testskengowins
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\View\View.php(457): View->_getViewFileName(NULL)
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CronController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-13 05:20:50 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /public/_sportronixrest/cron/calculate_skengo
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `sk...', Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Model\Datasource\DboSource.php(1003): DboSource->execute('INSERT INTO `sk...')
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Model\Model.php(1830): DboSource->create(Object(SkengoWins), Array, Array)
+#4 C:\wamp\www\public\_sportronixrest\app\Controller\CronController.php(153): Model->save(Array)
+#5 [internal function]: CronController->calculate_skengo()
+#6 C:\wamp\www\public\_sportronixrest\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CronController), Array)
+#7 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CronController), Object(CakeRequest), Object(CakeResponse))
+#9 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-11 06:39:49 Error: Fatal Error (4): syntax error, unexpected '<', expecting variable (T_VARIABLE) or '$' in [C:\wamp\www\public\_sportronixrest\app\Controller\CronController.php, line 193]
+2015-03-11 06:39:49 Error: [FatalErrorException] syntax error, unexpected '<', expecting variable (T_VARIABLE) or '$'
+Request URL: /public/_sportronixrest/cron/calculate_points
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 193)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 193, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 193, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-11 06:40:02 Error: Fatal Error (4): syntax error, unexpected '++' (T_INC), expecting variable (T_VARIABLE) or '$' in [C:\wamp\www\public\_sportronixrest\app\Controller\CronController.php, line 193]
+2015-03-11 06:40:02 Error: [FatalErrorException] syntax error, unexpected '++' (T_INC), expecting variable (T_VARIABLE) or '$'
+Request URL: /public/_sportronixrest/cron/calculate_points
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 193)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 193, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 193, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-11 06:40:10 Error: Fatal Error (4): syntax error, unexpected '<', expecting variable (T_VARIABLE) or '$' in [C:\wamp\www\public\_sportronixrest\app\Controller\CronController.php, line 202]
+2015-03-11 06:40:10 Error: [FatalErrorException] syntax error, unexpected '<', expecting variable (T_VARIABLE) or '$'
+Request URL: /public/_sportronixrest/cron/calculate_points
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 202)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 202, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 202, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-11 06:40:38 Error: [MissingViewException] View file "C:\wamp\www\public\_sportronixrest\app\View\Cron\calculate_points.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\public\\_sportronixrest\\app\\View\\Cron\\calculate_points.ctp',
+)
+Request URL: /public/_sportronixrest/cron/calculate_points
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\View\View.php(457): View->_getViewFileName(NULL)
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CronController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-11 06:40:38 Error: [MissingViewException] View file "C:\wamp\www\public\_sportronixrest\app\View\Cron\calculate_points.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\public\\_sportronixrest\\app\\View\\Cron\\calculate_points.ctp',
+)
+Request URL: /public/_sportronixrest/cron/calculate_points
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\View\View.php(457): View->_getViewFileName(NULL)
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CronController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-11 06:40:50 Error: [MissingViewException] View file "C:\wamp\www\public\_sportronixrest\app\View\Cron\calculate_points.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\public\\_sportronixrest\\app\\View\\Cron\\calculate_points.ctp',
+)
+Request URL: /public/_sportronixrest/cron/calculate_points/
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\View\View.php(457): View->_getViewFileName(NULL)
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CronController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-11 06:40:50 Error: [MissingViewException] View file "C:\wamp\www\public\_sportronixrest\app\View\Cron\calculate_points.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\public\\_sportronixrest\\app\\View\\Cron\\calculate_points.ctp',
+)
+Request URL: /public/_sportronixrest/cron/calculate_points/
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\View\View.php(457): View->_getViewFileName(NULL)
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CronController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-11 06:41:44 Error: [MissingViewException] View file "C:\wamp\www\public\_sportronixrest\app\View\Cron\calculate_points.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\public\\_sportronixrest\\app\\View\\Cron\\calculate_points.ctp',
+)
+Request URL: /public/_sportronixrest/cron/calculate_points/
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\View\View.php(457): View->_getViewFileName(NULL)
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CronController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-11 06:41:44 Error: [MissingViewException] View file "C:\wamp\www\public\_sportronixrest\app\View\Cron\calculate_points.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\public\\_sportronixrest\\app\\View\\Cron\\calculate_points.ctp',
+)
+Request URL: /public/_sportronixrest/cron/calculate_points/
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\View\View.php(457): View->_getViewFileName(NULL)
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CronController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-11 06:42:14 Error: [MissingViewException] View file "C:\wamp\www\public\_sportronixrest\app\View\Cron\calculate_points.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\public\\_sportronixrest\\app\\View\\Cron\\calculate_points.ctp',
+)
+Request URL: /public/_sportronixrest/cron/calculate_points/
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\View\View.php(457): View->_getViewFileName(NULL)
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CronController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-11 06:42:14 Error: [MissingViewException] View file "C:\wamp\www\public\_sportronixrest\app\View\Cron\calculate_points.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\public\\_sportronixrest\\app\\View\\Cron\\calculate_points.ctp',
+)
+Request URL: /public/_sportronixrest/cron/calculate_points/
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\View\View.php(457): View->_getViewFileName(NULL)
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CronController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-11 07:28:56 Error: Fatal Error (4): syntax error, unexpected 'case' (T_CASE) in [C:\wamp\www\public\_sportronixrest\app\Controller\CronController.php, line 239]
+2015-03-11 07:28:56 Error: [FatalErrorException] syntax error, unexpected 'case' (T_CASE)
+Request URL: /public/_sportronixrest/cron/calculate_points/
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 239)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 239, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 239, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-13 07:07:11 Error: Fatal Error (4): syntax error, unexpected '{' in [C:\wamp\www\public\_sportronixrest\app\Controller\SportController.php, line 96]
+2015-03-13 07:07:11 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /public/_sportronixrest/Sport/place_bet_skengo
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 96)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 96, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 96, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-13 07:07:11 Error: Fatal Error (4): syntax error, unexpected '{' in [C:\wamp\www\public\_sportronixrest\app\Controller\SportController.php, line 96]
+2015-03-13 07:07:11 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /public/_sportronixrest/Sport/place_bet_skengo
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 96)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 96, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 96, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-13 07:10:53 Error: Fatal Error (4): syntax error, unexpected '{' in [C:\wamp\www\public\_sportronixrest\app\Controller\SportController.php, line 96]
+2015-03-13 07:10:53 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /public/_sportronixrest/Sport/place_bet_skengo
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 96)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 96, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 96, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-13 07:11:33 Error: Fatal Error (4): syntax error, unexpected '{' in [C:\wamp\www\public\_sportronixrest\app\Controller\SportController.php, line 96]
+2015-03-13 07:11:33 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /public/_sportronixrest/Sport/place_bet_skengo
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 96)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 96, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 96, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-13 07:28:02 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [C:\wamp\www\public\_sportronixrest\app\Controller\SportController.php, line 125]
+2015-03-13 07:28:02 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /public/_sportronixrest/Sport/place_bet_skengo
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 125)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 125, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 125, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-13 07:28:02 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [C:\wamp\www\public\_sportronixrest\app\Controller\SportController.php, line 125]
+2015-03-13 07:28:02 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /public/_sportronixrest/Sport/place_bet_skengo
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 125)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 125, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 125, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-13 07:28:21 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in [C:\wamp\www\public\_sportronixrest\app\Controller\SportController.php, line 125]
+2015-03-13 07:28:21 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /public/_sportronixrest/Sport/place_bet_skengo
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 125)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 125, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 125, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-13 09:10:47 Error: [MissingViewException] View file "C:\wamp\www\public\_sportronixrest\app\View\Cron\reset.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\public\\_sportronixrest\\app\\View\\Cron\\reset.ctp',
+)
+Request URL: /public/_sportronixrest/Cron/reset
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\View\View.php(457): View->_getViewFileName(NULL)
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CronController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-13 09:10:47 Error: [MissingViewException] View file "C:\wamp\www\public\_sportronixrest\app\View\Cron\reset.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\public\\_sportronixrest\\app\\View\\Cron\\reset.ctp',
+)
+Request URL: /public/_sportronixrest/Cron/reset
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\View\View.php(457): View->_getViewFileName(NULL)
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(192): Controller->render()
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CronController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-13 12:12:38 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saveMnay' at line 1
+Request URL: /public/_sportronixrest/Cron/calculate_points
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('saveMnay', Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('saveMnay', Array, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('saveMnay', Array, Array)
+#4 C:\wamp\www\public\_sportronixrest\lib\Cake\Model\Model.php(800): DboSource->query('saveMnay', Array, Object(Bet))
+#5 C:\wamp\www\public\_sportronixrest\app\Controller\CronController.php(376): Model->__call('saveMnay', Array)
+#6 C:\wamp\www\public\_sportronixrest\app\Controller\CronController.php(376): Bet->saveMnay(Array)
+#7 [internal function]: CronController->calculate_points()
+#8 C:\wamp\www\public\_sportronixrest\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CronController), Array)
+#9 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CronController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-03-13 12:12:39 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saveMnay' at line 1
+Request URL: /public/_sportronixrest/Cron/calculate_points
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('saveMnay', Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Model\Datasource\DboSource.php(664): DboSource->execute('saveMnay', Array, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('saveMnay', Array, Array)
+#4 C:\wamp\www\public\_sportronixrest\lib\Cake\Model\Model.php(800): DboSource->query('saveMnay', Array, Object(Bet))
+#5 C:\wamp\www\public\_sportronixrest\app\Controller\CronController.php(376): Model->__call('saveMnay', Array)
+#6 C:\wamp\www\public\_sportronixrest\app\Controller\CronController.php(376): Bet->saveMnay(Array)
+#7 [internal function]: CronController->calculate_points()
+#8 C:\wamp\www\public\_sportronixrest\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(CronController), Array)
+#9 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CronController), Object(CakeRequest), Object(CakeResponse))
+#11 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-03-13 12:37:07 Error: Fatal Error (1): Call to a member function query() on a non-object in [C:\wamp\www\public\_sportronixrest\app\Controller\CronController.php, line 401]
+2015-03-13 12:37:07 Error: [FatalErrorException] Call to a member function query() on a non-object
+Request URL: /public/_sportronixrest/Cron/reset
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\pub...', 401)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\pub...', 401, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\pub...', 401, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-13 12:37:07 Error: Fatal Error (1): Call to a member function query() on a non-object in [C:\wamp\www\public\_sportronixrest\app\Controller\CronController.php, line 401]
+2015-03-13 12:37:07 Error: [FatalErrorException] Call to a member function query() on a non-object
+Request URL: /public/_sportronixrest/Cron/reset
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\pub...', 401)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\pub...', 401, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\pub...', 401, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-13 12:38:47 Error: Fatal Error (1): Call to a member function query() on a non-object in [C:\wamp\www\public\_sportronixrest\app\Controller\CronController.php, line 401]
+2015-03-13 12:38:47 Error: [FatalErrorException] Call to a member function query() on a non-object
+Request URL: /public/_sportronixrest/Cron/reset
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\pub...', 401)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\pub...', 401, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\pub...', 401, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-13 12:38:48 Error: Fatal Error (1): Call to a member function query() on a non-object in [C:\wamp\www\public\_sportronixrest\app\Controller\CronController.php, line 401]
+2015-03-13 12:38:48 Error: [FatalErrorException] Call to a member function query() on a non-object
+Request URL: /public/_sportronixrest/Cron/reset
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\pub...', 401)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\pub...', 401, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\pub...', 401, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-13 12:40:59 Error: Fatal Error (1): Call to a member function query() on a non-object in [C:\wamp\www\public\_sportronixrest\app\Controller\CronController.php, line 401]
+2015-03-13 12:40:59 Error: [FatalErrorException] Call to a member function query() on a non-object
+Request URL: /public/_sportronixrest/Cron/reset
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\pub...', 401)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\pub...', 401, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\pub...', 401, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-13 12:40:59 Error: Fatal Error (1): Call to a member function query() on a non-object in [C:\wamp\www\public\_sportronixrest\app\Controller\CronController.php, line 401]
+2015-03-13 12:40:59 Error: [FatalErrorException] Call to a member function query() on a non-object
+Request URL: /public/_sportronixrest/Cron/reset
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\pub...', 401)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\pub...', 401, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\pub...', 401, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-13 13:34:40 Error: Fatal Error (1): Class 'AuthComponent' not found in [C:\wamp\www\public\_sportronixrest\app\Controller\MemberController.php, line 162]
+2015-03-13 13:34:40 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /public/_sportronixrest/Member/login
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', 'C:\\wamp\\www\\pub...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', 'C:\\wamp\\www\\pub...', 162, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', 'C:\\wamp\\www\\pub...', 162, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-13 13:35:04 Error: Fatal Error (1): Class 'AuthComponent' not found in [C:\wamp\www\public\_sportronixrest\app\Controller\MemberController.php, line 162]
+2015-03-13 13:35:04 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /public/_sportronixrest/Member/login
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', 'C:\\wamp\\www\\pub...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', 'C:\\wamp\\www\\pub...', 162, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', 'C:\\wamp\\www\\pub...', 162, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-13 13:35:39 Error: Fatal Error (1): Class 'AuthComponent' not found in [C:\wamp\www\public\_sportronixrest\app\Controller\MemberController.php, line 162]
+2015-03-13 13:35:39 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /public/_sportronixrest/Member/login
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', 'C:\\wamp\\www\\pub...', 162)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', 'C:\\wamp\\www\\pub...', 162, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', 'C:\\wamp\\www\\pub...', 162, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-13 13:36:19 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /public/_sportronixrest/users/login
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-13 14:27:08 Error: Fatal Error (4): syntax error, unexpected '$', expecting ')' in [C:\wamp\www\public\_sportronixrest\app\Controller\MemberController.php, line 178]
+2015-03-13 14:27:08 Error: [FatalErrorException] syntax error, unexpected '$', expecting ')'
+Request URL: /public/_sportronixrest/Member/login
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 178)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 178, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 178, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-13 14:27:08 Error: Fatal Error (4): syntax error, unexpected '$', expecting ')' in [C:\wamp\www\public\_sportronixrest\app\Controller\MemberController.php, line 178]
+2015-03-13 14:27:08 Error: [FatalErrorException] syntax error, unexpected '$', expecting ')'
+Request URL: /public/_sportronixrest/Member/login
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 178)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 178, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\pub...', 178, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-03 23:53:02 Error: Fatal Error (1): Call to a member function findById() on a non-object in [C:\wamp\www\public\_sportronixrest\app\Controller\SportController.php, line 114]
+2015-04-03 23:53:02 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /public/_sportronixrest/Sport/place_bet_skengo
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\pub...', 114)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\pub...', 114, Array)
+#2 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\pub...', 114, Array)
+#3 C:\wamp\www\public\_sportronixrest\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-17 10:23:38 Error: [MissingActionException] Action SeanController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'SeanController',
+  'action' => 'index',
+)
+Request URL: /public/_sportronixrest/sean/
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(SeanController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-17 10:23:55 Error: [MissingControllerException] Controller class ~Controller could not be found.
+Exception Attributes: array (
+  'class' => '~Controller',
+  'plugin' => NULL,
+)
+Request URL: /public/_sportronixrest/~
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-17 10:24:08 Error: [MissingActionException] Action SeanController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'SeanController',
+  'action' => 'index',
+)
+Request URL: /public/_sportronixrest/sean/
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(SeanController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-17 10:27:04 Error: [MissingActionException] Action CronController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'CronController',
+  'action' => 'index',
+)
+Request URL: /public/_sportronixrest/cron
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CronController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-17 10:27:23 Error: [MissingActionException] Action CronController::calculate_skengo(() could not be found.
+Exception Attributes: array (
+  'controller' => 'CronController',
+  'action' => 'calculate_skengo(',
+)
+Request URL: /public/_sportronixrest/cron/calculate_skengo(
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(CronController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 21:50:30 Error: [MissingActionException] Action SeanController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'SeanController',
+  'action' => 'index',
+)
+Request URL: /public/_sportronixrest/sean/
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(SeanController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-16 21:50:54 Error: [MissingActionException] Action SeanController::get_players() could not be found.
+Exception Attributes: array (
+  'controller' => 'SeanController',
+  'action' => 'get_players',
+)
+Request URL: /public/_sportronixrest/sean/get_players
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(SeanController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-27 22:26:59 Error: [MissingActionException] Action SeanController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'SeanController',
+  'action' => 'index',
+)
+Request URL: /public/_sportronixrest/sean
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(SeanController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-27 22:27:05 Error: [MissingActionException] Action SeanController::getPlayer() could not be found.
+Exception Attributes: array (
+  'controller' => 'SeanController',
+  'action' => 'getPlayer',
+)
+Request URL: /public/_sportronixrest/sean/getPlayer
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(SeanController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-27 22:27:23 Error: [MissingActionException] Action SeanController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'SeanController',
+  'action' => 'index',
+)
+Request URL: /public/_sportronixrest/sean
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(SeanController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-27 22:27:39 Error: [MissingActionException] Action SeanController::getPlayer() could not be found.
+Exception Attributes: array (
+  'controller' => 'SeanController',
+  'action' => 'getPlayer',
+)
+Request URL: /public/_sportronixrest/sean/getPlayer
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(SeanController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-27 22:44:50 Error: [MissingActionException] Action SeanController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'SeanController',
+  'action' => 'index',
+)
+Request URL: /public/_sportronixrest/sean/
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(SeanController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 22:24:06 Error: [MissingActionException] Action SeanController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'SeanController',
+  'action' => 'index',
+)
+Request URL: /public/_sportronixrest/sean
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(SeanController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-12-28 22:24:16 Error: [MissingActionException] Action SeanController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'SeanController',
+  'action' => 'index',
+)
+Request URL: /public/_sportronixrest/sean
+Stack Trace:
+#0 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\public\_sportronixrest\lib\Cake\Routing\Dispatcher.php(160): Dispatcher->_invoke(Object(SeanController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\wamp\www\public\_sportronixrest\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-05-26 11:32:21 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'Selected driver is not enabled',
+  'enabled' => false,
+)
+Request URL: /~lu/_sportronixrest/sean/getPlayers
+Stack Trace:
+#0 /home/lu/public_html/_sportronixrest/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#1 /home/lu/public_html/_sportronixrest/lib/Cake/Model/Model.php(3471): ConnectionManager::getDataSource('default')
+#2 /home/lu/public_html/_sportronixrest/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#3 /home/lu/public_html/_sportronixrest/lib/Cake/Model/Model.php(3493): Model->setSource('players')
+#4 /home/lu/public_html/_sportronixrest/lib/Cake/Model/Model.php(2897): Model->getDataSource()
+#5 /home/lu/public_html/_sportronixrest/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#6 /home/lu/public_html/_sportronixrest/app/Controller/SeanController.php(180): Model->find('all')
+#7 [internal function]: SeanController->getPlayers()
+#8 /home/lu/public_html/_sportronixrest/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SeanController), Array)
+#9 /home/lu/public_html/_sportronixrest/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /home/lu/public_html/_sportronixrest/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SeanController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/lu/public_html/_sportronixrest/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-05-26 11:33:45 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'Selected driver is not enabled',
+  'enabled' => false,
+)
+Request URL: /~lu/_sportronixrest/sean/getPlayers
+Stack Trace:
+#0 /home/lu/public_html/_sportronixrest/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#1 /home/lu/public_html/_sportronixrest/lib/Cake/Model/Model.php(3471): ConnectionManager::getDataSource('default')
+#2 /home/lu/public_html/_sportronixrest/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#3 /home/lu/public_html/_sportronixrest/lib/Cake/Model/Model.php(3493): Model->setSource('players')
+#4 /home/lu/public_html/_sportronixrest/lib/Cake/Model/Model.php(2897): Model->getDataSource()
+#5 /home/lu/public_html/_sportronixrest/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#6 /home/lu/public_html/_sportronixrest/app/Controller/SeanController.php(180): Model->find('all')
+#7 [internal function]: SeanController->getPlayers()
+#8 /home/lu/public_html/_sportronixrest/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SeanController), Array)
+#9 /home/lu/public_html/_sportronixrest/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /home/lu/public_html/_sportronixrest/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SeanController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/lu/public_html/_sportronixrest/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-05-26 11:34:47 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /~lu/_sportronixrest/sean/getPlayers
+Stack Trace:
+#0 /home/lu/public_html/_sportronixrest/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/lu/public_html/_sportronixrest/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/lu/public_html/_sportronixrest/lib/Cake/Model/Model.php(3471): ConnectionManager::getDataSource('default')
+#3 /home/lu/public_html/_sportronixrest/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /home/lu/public_html/_sportronixrest/lib/Cake/Model/Model.php(3493): Model->setSource('players')
+#5 /home/lu/public_html/_sportronixrest/lib/Cake/Model/Model.php(2897): Model->getDataSource()
+#6 /home/lu/public_html/_sportronixrest/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#7 /home/lu/public_html/_sportronixrest/app/Controller/SeanController.php(180): Model->find('all')
+#8 [internal function]: SeanController->getPlayers()
+#9 /home/lu/public_html/_sportronixrest/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SeanController), Array)
+#10 /home/lu/public_html/_sportronixrest/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#11 /home/lu/public_html/_sportronixrest/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SeanController), Object(CakeRequest), Object(CakeResponse))
+#12 /home/lu/public_html/_sportronixrest/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-05-26 19:46:44 Error: [MissingControllerException] Controller class ";Controller could not be found.
+Exception Attributes: array (
+  'class' => '";Controller',
+  'plugin' => NULL,
+)
+Request URL: /~lu/_sportronixrest/%22;
+Stack Trace:
+#0 /home/lu/public_html/_sportronixrest/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-05-26 23:09:08 Error: [MissingActionException] Action MemberController::POST() could not be found.
+Exception Attributes: array (
+  'controller' => 'MemberController',
+  'action' => 'POST',
+)
+Request URL: /~lu/_sportronixrest/Member/POST
+Stack Trace:
+#0 /home/lu/public_html/_sportronixrest/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/lu/public_html/_sportronixrest/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(MemberController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/lu/public_html/_sportronixrest/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-08-20 14:26:54 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/lu/public_html/_sportronixrest/app/Controller/SeanController.php, line 218]
+2016-08-20 14:26:54 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /~lu/_sportronixrest/sean/getPlayerById/36
+Stack Trace:
+#0 /home/lu/public_html/_sportronixrest/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/lu/public...', 218)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/lu/public...', 218, Array)
+#2 /home/lu/public_html/_sportronixrest/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/lu/public...', 218, Array)
+#3 /home/lu/public_html/_sportronixrest/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-20 14:27:57 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/lu/public_html/_sportronixrest/app/Controller/SeanController.php, line 218]
+2016-08-20 14:27:57 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /~lu/_sportronixrest/sean/getPlayerById/36
+Stack Trace:
+#0 /home/lu/public_html/_sportronixrest/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/lu/public...', 218)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/lu/public...', 218, Array)
+#2 /home/lu/public_html/_sportronixrest/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/lu/public...', 218, Array)
+#3 /home/lu/public_html/_sportronixrest/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-20 14:29:02 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/lu/public_html/_sportronixrest/app/Controller/SeanController.php, line 218]
+2016-08-20 14:29:02 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /~lu/_sportronixrest/sean/getPlayerById/36
+Stack Trace:
+#0 /home/lu/public_html/_sportronixrest/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/lu/public...', 218)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/lu/public...', 218, Array)
+#2 /home/lu/public_html/_sportronixrest/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/lu/public...', 218, Array)
+#3 /home/lu/public_html/_sportronixrest/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-20 14:29:27 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/lu/public_html/_sportronixrest/app/Controller/SeanController.php, line 216]
+2016-08-20 14:29:27 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /~lu/_sportronixrest/sean/getPlayerById/36
+Stack Trace:
+#0 /home/lu/public_html/_sportronixrest/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/lu/public...', 216)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/lu/public...', 216, Array)
+#2 /home/lu/public_html/_sportronixrest/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/lu/public...', 216, Array)
+#3 /home/lu/public_html/_sportronixrest/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-08-20 14:31:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Player.id=' in 'where clause'
+Request URL: /~lu/_sportronixrest/sean/getPlayerById/36
+Stack Trace:
+#0 /home/lu/public_html/_sportronixrest/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/lu/public_html/_sportronixrest/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Player`...', Array)
+#2 /home/lu/public_html/_sportronixrest/lib/Cake/Model/Datasource/DboSource.php(664): DboSource->execute('SELECT `Player`...', Array, Array)
+#3 /home/lu/public_html/_sportronixrest/lib/Cake/Model/Datasource/DboSource.php(1076): DboSource->fetchAll('SELECT `Player`...', false)
+#4 /home/lu/public_html/_sportronixrest/lib/Cake/Model/Model.php(2897): DboSource->read(Object(Player), Array)
+#5 /home/lu/public_html/_sportronixrest/lib/Cake/Model/Model.php(2869): Model->_readDataSource('all', Array)
+#6 /home/lu/public_html/_sportronixrest/app/Controller/SeanController.php(218): Model->find('all', Array)
+#7 [internal function]: SeanController->getPlayerById('36')
+#8 /home/lu/public_html/_sportronixrest/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SeanController), Array)
+#9 /home/lu/public_html/_sportronixrest/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /home/lu/public_html/_sportronixrest/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(SeanController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/lu/public_html/_sportronixrest/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-08-20 15:47:51 Error: [MissingViewException] View file "/home/lu/public_html/_sportronixrest/app/View/Cron/get_winners.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/lu/public_html/_sportronixrest/app/View/Cron/get_winners.ctp',
+)
+Request URL: /~lu/_sportronixrest/cron/getWinners
+Stack Trace:
+#0 /home/lu/public_html/_sportronixrest/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /home/lu/public_html/_sportronixrest/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/lu/public_html/_sportronixrest/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/lu/public_html/_sportronixrest/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CronController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/lu/public_html/_sportronixrest/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
